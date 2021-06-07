@@ -1,0 +1,87 @@
+﻿body {
+    background: linear-gradient(25deg, #191919 4px, transparent 5px) 0 4px, linear-gradient(207deg, #191919 4px, transparent 5px) 9px 0px, linear-gradient(26deg, #212020 4px, transparent 4px) 0px 9px, linear-gradient(206deg, #212020 4px, transparent 4px) 9px 4px, linear-gradient(89deg, #171616 9px, transparent 5px), linear-gradient(#171616 25%, #171616 25%, #171616 49.9%, transparent 49.9%, transparent 69%, #2b2a2a 69%, #2b2a2a);
+    background-color: #0e0e0e;
+    background-size: 19px 19px;
+}
+h1 {
+    margin: 0;
+}
+
+p {
+    font-size: 45px;
+}
+.content {
+    margin: auto;
+    width: 900px;
+    background-color: white;
+    padding: 20px;
+}
+
+a.button7 {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+}
+a.button7:hover {
+    background: rgba(255,255,255,.2);
+}
+
+a.button8:active {
+    background: white;
+}
+
+
+    a.button7:hover {
+        background: rgb(53, 167, 110);
+    }
+
+    a.button7:active {
+        background: rgb(33,147,90);
+        box-shadow: 0 3px rgb(33,147,90) inset;
+    }
+
+/*.button {
+    background-color: #4CAF50; /* Green */
+    /*border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}*/
+.navigationbar {
+    background-color: #f3f3f3;
+}
+
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    margin: auto;
+    width: 940px;
+}
+ul.menu li {
+    float: left;
+}
+ul.menu li a {
+    display: block;
+    padding: 14px 16px;
+    color: #666;
+    text-align: center;
+    text-decoration: none; /**/
+}
+ul.menu li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+ul.menu li a.active {
+    color: white;
+    background-color: #ff6a00;
+}
