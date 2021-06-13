@@ -17,37 +17,35 @@ p {
     padding: 20px;
 }
 
-a.button7 {
-    font-weight: 700;
+a.button {
+    display: inline-block;
     color: white;
+    font-weight: 700;
     text-decoration: none;
-    padding: .8em 1em calc(.8em + 3px);
-    border-radius: 3px;
-    background: rgb(64,199,129);
-    box-shadow: 0 -3px rgb(53,167,110) inset;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
     transition: 0.2s;
 }
-a.button7:hover {
+
+    a.button:hover {
+        background: rgba(255,255,255,.2);
+    }
+
+    a.button:active {
+        background: white;
+    }
+
+.buttonbar {
     background: rgba(255,255,255,.2);
+    position: relative;
+    left: -20px;
 }
-
-a.button8:active {
-    background: white;
-}
-
-
-    a.button7:hover {
-        background: rgb(53, 167, 110);
-    }
-
-    a.button7:active {
-        background: rgb(33,147,90);
-        box-shadow: 0 3px rgb(33,147,90) inset;
-    }
-
 /*.button {
-    background-color: #4CAF50; /* Green */
-    /*border: none;
+    background-color: #4CAF50;
+    border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -57,6 +55,14 @@ a.button8:active {
 }*/
 .navigationbar {
     background-color: #f3f3f3;
+}
+ul.downmenu {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #212020;
+    margin: initial;
+    width: 940px;
 }
 
 ul.menu {
@@ -85,3 +91,7 @@ ul.menu li a.active {
     color: white;
     background-color: #ff6a00;
 }
+
+
+
+
